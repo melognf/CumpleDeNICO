@@ -1,0 +1,15 @@
+.cabecera {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 4px solid blue;
+}
+
+.video video {
+    width: 99%;
+    border: 4px solid red;
+}
+
+.cabecera img {
+    width: 100%;
+}
