@@ -47,12 +47,11 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
-
-}
+} 
 
 .simply-section {
     background-color: rgb(29, 194, 29);
-    width: 180px;
+    width: 80%;
     height: 120px;
     margin: 0 20px;
     border-radius: 5px;
