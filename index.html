@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>invitacion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
@@ -13,10 +16,22 @@
         </div>
     </header>
     <main>
-        <div class="video">
-            <video src="multimedia/video.mp4" controls  poster="multimedia/poster.png"></video>
-        </div>
+        <section id="video">
+            <div class="video">
+                <video src="multimedia/video.mp4" controls  poster="multimedia/poster.png"></video>
+            </div>
+        </section>
+        <section id="contador">
+            <div class="titulo">
+                <h1>Para el cumple de NICO faltan:</h1>
+            </div>
+            <div id="cuenta"></div>
+            <div class="mensaje" id="dia">
+                <p>HOY ES EL DIA!!!!</p>
+            </div>
+        </section>
     </main>
-  <script src="main.js"></script>  
+  <script src="js/simplyCountdown.min.js"></script>
+  <script src="js/main.js"></script> 
 </body>
 </html>
