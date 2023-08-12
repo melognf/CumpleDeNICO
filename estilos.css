@@ -78,7 +78,7 @@
     background-image: url(multimedia/Mario\ 6.png);
     padding: 20px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     border: 4px solid blue;
 }
 
