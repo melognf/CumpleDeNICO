@@ -2,28 +2,19 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 4px solid blue;
+    margin-bottom: 20px;
 }
 
 .video video {
-    width: 99%;
-    border: 4px solid red;
+    width: 100%;
 }
 
 .cabecera img {
     width: 100%;
 }
 
-.titulo {
-    width: 92%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-bottom: 0px;
-    padding: 20px;
-    background-image: url(multimedia/Mario\ block.png);
-    background-size: contain;
-    margin-top: 20px;
+.titulo img {
+    width: 100%;
 }
 
 .mensaje p {
@@ -34,7 +25,11 @@
     text-align: center;
     font-size: 30px;
     display: none;
-    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Lilita One', cursive;
+    margin-bottom: 30px;
+    background-color: rgb(29, 194, 29);
+    color: hsl(229, 100%, 50%);
+    border: 4px solid hsl(229, 100%, 50%);
 }
 
 .aparecer p {
@@ -60,6 +55,7 @@
     padding-left: 5px;
     border: 2px solid black;
     margin-top: 300px;
+    font-family: 'Lilita One', cursive;
 }
 
 .simply-amount {
@@ -87,4 +83,78 @@ h1 {
     font-size: 30px;
     background-color: #1f1e1e;
 
+}
+
+#ubicacion {
+    padding: 30px;
+    padding-top: 0;
+    background-image: url(multimedia/ubicacion.jpg);
+    background-size: cover;
+}
+
+.uno {
+    align-self: flex-start;
+    background-color: #fc466b;
+}
+
+.dos {
+    align-self: flex-end;
+    margin-left: 260px;
+}
+
+h5 {
+    padding: 20px;
+    font-family: 'Lilita One', cursive;
+    font-size: 40px;
+}
+
+#ubicacion p {
+    padding: 30px;
+    font-family: 'Lilita One', cursive;
+    font-size: 16px;
+    margin-bottom: 230px;
+}
+
+.btn {
+    border: 2px solid black;
+}
+
+.imagenesUrna {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+
+}
+
+#urna {
+    margin-top: 20px;
+}
+
+.card-text {
+    font-family: 'Lilita One', cursive;
+    font-size: 25px;
+    padding: 40px;
+}
+
+.pieuno {
+	background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.pieuno h2 {
+	font-family: 'Luckiest Guy', cursive;
+	margin-left: 100px;
+    color: white;
+}
+
+footer {
+    color: white;
+    font-family: 'Lilita One', cursive;
+    padding: 5px;
+}
+
+#telefono h2,h4,h6,img {
+    padding: 10px;
 }
