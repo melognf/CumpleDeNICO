@@ -140,6 +140,7 @@ h5 {
     justify-content: center;
     margin-top: 20px;
     width: 100%;
+    border: none;
 }
 
 .card-text {
