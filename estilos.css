@@ -96,16 +96,16 @@ h1 {
 
 #ubicacion a {
     display: inline-block;
+    width: 150px;
+    height: 40px;
 }
 
 .uno {
-    align-self: flex-start;
     background-color: #fc466b;
 }
 
 .dos {
-    align-self: flex-end;
-    margin-left: 260px;
+    margin-left: 170px;
 }
 
 h5 {
@@ -150,8 +150,6 @@ h5 {
     font-size: 25px;
     padding: 40px;
     text-align: center;
-    margin: 40px;
-    margin-bottom: 20px;
 }
 
 .pieuno {
