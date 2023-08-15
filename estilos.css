@@ -89,6 +89,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
     padding: 30px;
     padding-top: 0;
     background-image: url(multimedia/ubicacion.jpg);
@@ -114,7 +115,7 @@ h5 {
 #ubicacion p {
     padding: 30px;
     font-family: 'Lilita One', cursive;
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 230px;
 }
 
@@ -126,7 +127,7 @@ h5 {
     display: flex;
     flex-direction: row;
     background-color: white;
-
+    width: 100% auto;
 }
 
 #urna {
@@ -140,6 +141,7 @@ h5 {
     font-family: 'Lilita One', cursive;
     font-size: 25px;
     padding: 40px;
+    text-align: center;
 }
 
 .pieuno {
@@ -152,15 +154,31 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
 .pieuno h2 {
 	font-family: 'Luckiest Guy', cursive;
 	margin-left: 100px;
-    color: white;
+    color: #007fff;
+    margin-top: 20px;
+    border: 1 px solid black;
 }
 
 footer {
     color: white;
     font-family: 'Lilita One', cursive;
     padding: 5px;
+    font-weight: 200;
 }
 
 #telefono h2,h4,h6,img {
     padding: 10px;
+}
+
+.texto {
+    display: flex;
+    width: 100%;
+}
+
+h6 {
+    font-size: 25px;
+}
+
+#telefono img {
+    border-radius: 25px;
 }
