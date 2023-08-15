@@ -130,11 +130,16 @@ h5 {
     width: 100% auto;
 }
 
-#urna {
+.imagenesUrna img {
+    width: 75%;
+}
+
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 20px;
+    width: 100%;
 }
 
 .card-text {
