@@ -3,6 +3,62 @@
     flex-direction: column;
     justify-content: center;
     margin-bottom: 20px;
+    background-color: #1f1e1e;
+    margin-bottom: 0;
+}
+
+.cabecera img {
+    border-left: 4px solid #fef00c;
+    border-top: 4px solid #fef00c;
+    border-right: 4px solid #fef00c;
+}
+
+.niqui {
+    height: 150px;
+    width: auto;
+    animation-name: titulo;
+    background-color: #1f1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 4px solid #fef00c;
+    border-bottom: 4px solid #fef00c;
+    border-right: 4px solid #fef00c;
+}
+
+.niqui span {
+    color: #bb2326;
+    text-shadow: 2px 2px #fef00c;
+    font-family: lithos;
+    font-size: 90px;
+    animation-name: titulo;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes titulo {
+    0% {
+        color: #1f1e1e;
+        text-shadow: 2px 2px #1f1e1e;
+    }
+
+    20% {
+        color: #1f1e1e;
+        text-shadow: 2px 2px #1f1e1e;
+    }
+
+    50% {
+        color: #2525dc;
+        text-shadow: 2px 2px #fef00c;
+        font-size: 30px;
+    }
+
+    100% {
+        color: #bb2326;
+        text-shadow: 2px 2px #fef00c;
+        margin-top: 0;
+    }
 }
 
 .video video {
@@ -13,8 +69,26 @@
     width: 100%;
 }
 
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #bb2326;
+    text-shadow: 2px 2px #fef00c;
+
+}
+
 .titulo img {
     width: 100%;
+    border: 2px solid #fef00c;
+}
+
+.titulo span {
+    font-family: lithos;
+    font-size: 40px;
+    padding: 20px;
+    color: #2525dc;
 }
 
 .mensaje p {
@@ -42,6 +116,8 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+    width: auto;
+    height: auto;
 } 
 
 .simply-section {
@@ -70,12 +146,7 @@
     font-weight: 300;
 }
 
-#contador {
-    background-image: url(multimedia/Mario\ 6.png);
-    padding: 0px;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
+
 
 h1 {
     margin-top: 0;
