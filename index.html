@@ -1,89 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>invitacion</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Lilita+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilos.css">
-    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
-<link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitación Hyrule Warriors</title>
 
+  <!-- Fuentes estilo Zelda -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Animaciones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
+
 <body>
-    <header>
-        <div class="cabecera">
-            <img src="multimedia/logo.png" alt="">
-        </div>
-        <div class="niqui">
-            <span>...y Nico</span>
-        </div>
-    </header>
-    <main>
-        <section id="video">
-            <div class="video">
-                <video src="multimedia/nico8.mp4" controls  poster="multimedia/inicio.jpg"></video>
-            </div>
-        </section>
-        <div class="titulo">
-            <img src="multimedia/feliz.jpg" alt="">
-            <span class="animate__animated animate__bounce">PARA EL CUMPLE DE NICO FALTAN</span>
-        </div>
-        <section id="contador">
-            
-            <div id="cuenta"></div>
-            <div class="mensaje" id="dia">
-                <p>HOY ES EL DIA!!!!<br>De 15:00 a 17:30hs</p>
-            </div>
-        </section>
+  <header class="cabecera">
+    <img src="multimedia/logo.png" alt="Logo Hyrule">
+  </header>
 
-        <section id="ubicacion">
-            <h5 class="card-title">Información</h5>
-                  <p class="card-text">Te esperamos en LA CALESITA, Darwin 590(Esquina Espora al 4800)<br/> Villa Lynch, San Martín<br/> el día 25/08 /24 de 15 hs a 17:30hs.<br>A continuacion compartimos los enlaces para que conozcas el lugar y saber como llegar.</p>
-                  
+  <main>
+    <section id="video">
+      <div class="video">
+        <video src="multimedia/hyrule_intro.mp4" controls poster="multimedia/poster.jpg"></video>
+      </div>
+    </section>
 
-        </section>
+    <div class="titulo">
+      <img src="multimedia/contador.png" alt="Feliz cumple">
+      <span class="animate__animated animate__fadeInDown">¡FALTAN PARA EL CUMPLE DE NICO!</span>
+    </div>
 
-        <section id="redes">
-            <a href="https://www.instagram.com/lacalesitamultieventos/" target="_blank" class="btn btn-primary uno">Instagram</a>
-                  <a href="https://www.google.com/maps/place/La+Calesita/@-34.5955986,-58.5340296,15z/data=!4m12!1m6!3m5!1s0x0:0x73b161970ac2defe!2sLa+Calesita!8m2!3d-34.5955986!4d-58.5340296!3m4!1s0x0:0x73b161970ac2defe!8m2!3d-34.5955986!4d-58.5340296" target="_blank" class="btn btn-primary dos">Cómo llegar</a>
-        </section>
+    <section id="contador">
+      <div id="cuenta"></div>
+      <div class="mensaje" id="dia">
+        <p>¡HOY ES EL GRAN DÍA EN HYRULE!<br>De 15:00 a 17:30hs</p>
+      </div>
+    </section>
 
-        <section id="urna">
-            <div class="urnaImagenes">
-                <img src="multimedia/urna1.png" alt="">
-                <img src="multimedia/urna2.png" alt="">
-            </div>
-                
-            </div>
-            <div class="card-body texto">
-                <p class="card-text">Si vas a hacerle un regalo a Nicolas y no sabés qué, te cuento que en la puerta del salón habrá una urna en la que le podes dejar lo que quieras o puedas.</p>
-              </div>
-              <div class="cofre">
-                <img src="multimedia/tesoro.jpg" alt="">
-              </div>
-        </section>
-    </main>
-    <footer>
-        <div id="telefono" class="col-sm-12 col-md-12 col-lg-12 col-xl-12 pieuno">
-            <h4>Invitaciones interactivas Web</h4>
-            <h2>Ultimo Recurso!!</h2>
-            <img src="multimedia/wu.jpg" alt="">
-            <h6>1158254893</h6>
-          </div>
-    </footer>
+<section id="asistentes">
+  <h3>¿Vas a venir al cumple?</h3>
+  <p>Dejanos tu nombre y aparecerás en el mural de asistentes reales del reino:</p>
+
+  <div class="registro-magico">
+    <div class="formulario-placa">
+      <input type="text" id="nombreAsistente" placeholder="Escribí tu nombre..." />
+      <button id="agregarAsistente">Confirmar ✨</button>
+    </div>
+  </div>
+
+  <div id="pergamino-mural">
+    <div id="muralAsistentes"></div>
+  </div>
+</section>
+
+<button id="borrarTodos" style="margin-top: 20px;">🗑️ Borrar todos los asistentes</button>
+
+
+    
+
+    <section id="ubicacion" class="seccion-hyrule">
+  <h3>📍 Ubicación</h3>
+  <p>
+    Te esperamos en el castillo real (dirección real aquí)<br />
+    el <strong>25/08/2024</strong> de <strong>15:00 a 17:30 hs</strong>.<br />
+    ¡No llegues tarde, el reino te necesita! ⚔️
+  </p>
+</section>
+
+<section id="redes" class="seccion-hyrule">
+  <h3>🔗 Enlaces mágicos</h3>
+  <div class="botones-redes">
+    <a href="#" target="_blank" class="btn btn-instagram">
+      <img src="multimedia/insta.png" alt="Instagram" /> Instagram
+    </a>
+    <a href="#" target="_blank" class="btn btn-mapa">
+      <img src="multimedia/maps.png" alt="Mapa" /> Cómo llegar
+    </a>
+  </div>
+</section>
+
+
+  <section id="urna">
+  <div class="urnaImagenes">
+    <img src="multimedia/cofre.png" alt="Urna Hyrule">
+    <img src="multimedia/lana.png" alt="Lana explicando">
+  </div>
+
+  <div class="urnaTexto-container">
+    <p id="mensajeUrna" class="urnaTexto"></p>
+  </div>
+</section>
+
+
+
+  <footer>
+    <div id="telefono" class="pieuno">
+      <h4>Invitación interactiva Hyrule</h4>
+      <h2>By Ultimo Recurso!!</h2>
+      <img src="multimedia/wu.jpg" alt="Whatsapp">
+      <h6>1158254893</h6>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
   <script src="js/simplyCountdown.min.js"></script>
-  <script src="js/main.js"></script> 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="js/main.js" type="module"></script>
+  <script src="js/firebase-config.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <audio id="sonidoZeldaFanfare" src="multimedia/zelda.mp3" preload="auto"></audio>
+  <audio id="sonidoTipeo" src="multimedia/tipeo.mp3" preload="auto"></audio>
+
 
 </body>
 </html>
