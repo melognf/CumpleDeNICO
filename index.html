@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Invitación Hyrule Warriors</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
   <!-- Fuentes estilo Zelda -->
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
@@ -61,14 +62,19 @@
 
     
 
-    <section id="ubicacion" class="seccion-hyrule">
-  <h3>📍 Ubicación</h3>
+<section id="ubicacion" class="seccion-hyrule">
+  <h3 class="titulo-ubi">
+  <img src="multimedia/ubi.png" class="ico-ubi-img" alt="">
+  Ubicación
+</h3>
+
   <p>
     Te esperamos en el castillo real (dirección real aquí)<br />
     el <strong>25/08/2024</strong> de <strong>15:00 a 17:30 hs</strong>.<br />
     ¡No llegues tarde, el reino te necesita! ⚔️
   </p>
 </section>
+
 
 <section id="redes" class="seccion-hyrule">
   <h3>🔗 Enlaces mágicos</h3>
@@ -94,16 +100,45 @@
   </div>
 </section>
 
-
-
-  <footer>
-    <div id="telefono" class="pieuno">
-      <h4>Invitación interactiva Hyrule</h4>
-      <h2>By Ultimo Recurso!!</h2>
-      <img src="multimedia/wu.jpg" alt="Whatsapp">
-      <h6>1158254893</h6>
+<footer class="hyrule-footer">
+  <div class="footer-inner">
+    <div class="brand">
+      <!-- trifuerza mini -->
+      <svg class="tri" viewBox="0 0 48 48" aria-hidden="true">
+        <polygon points="24,6 34,24 14,24" />
+        <polygon points="19,27 14,36 24,36" />
+        <polygon points="29,27 24,36 34,36" />
+      </svg>
+      <div>
+        <h4>Invitaciónes interativas "Ultimo Recurso"</h4>
+        <p>“Que la Trifuerza guíe tu camino”</p>
+      </div>
     </div>
-  </footer>
+
+    <nav class="footer-links">
+      <a href="#" class="btn-link">
+        <img src="multimedia/insta.png" alt="" /> Instagram
+      </a>
+      <a href="#" class="btn-link">
+        <img src="multimedia/maps.png" alt="" /> Cómo llegar
+      </a>
+      <a href="https://wa.me/541158254893" class="btn-cta">
+  <i class="fa-brands fa-whatsapp"></i> WhatsApp
+</a>
+
+    </nav>
+
+    <div class="contact">
+      <p>Consultas: <a href="tel:+541158254893">11 5825-4893</a></p>
+      <small>Hecho con ♡ en Hyrule — © 2025</small>
+    </div>
+  </div>
+
+  <button id="toTop" class="to-top" aria-label="Volver arriba">▲</button>
+</footer>
+
+
+  
 
   <!-- Scripts -->
   <script src="js/simplyCountdown.min.js"></script>

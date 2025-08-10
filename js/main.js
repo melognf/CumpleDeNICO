@@ -162,6 +162,18 @@ if (mensajeElemento) {
   observer.observe(mensajeElemento);
 }
 
+// Botón volver arriba (footer)
+const toTop = document.getElementById('toTop');
+if (toTop) {
+  const toggleTopBtn = () => {
+    if (window.scrollY > 420) toTop.style.opacity = 1;
+    else toTop.style.opacity = 0.0;
+  };
+  toTop.style.opacity = 0;
+  window.addEventListener('scroll', toggleTopBtn, { passive: true });
+  toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  toggleTopBtn();
+}
 
 
 
