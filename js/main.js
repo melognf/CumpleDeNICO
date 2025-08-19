@@ -48,7 +48,7 @@ btnAgregar.addEventListener("click", async () => {
 simplyCountdown('#cuenta', {
   year: 2025,
   month: 8,
-  day: 25,
+  day: 31,
   hours: 0,
   minutes: 0,
   seconds: 0,
